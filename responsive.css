@@ -1,0 +1,1134 @@
+@media screen and (max-width: 576px){
+   
+
+/* Main Section Top */
+
+
+.hero-section {
+    width: 230px ;
+    height: 557px;
+    position: relative;
+    border: 1px;
+    border-style: none none solid solid;
+    border-color:  #E0AB48;
+   margin-left: 100px;
+   }
+  .hero-section2 {
+    width: 235px;
+    height: 550px;
+    position: relative;
+    border: 1px;
+    /* margin-left: 280px !important; */
+    border-style: none none none none;
+    border-color:  #e0ab488a;
+  }
+  
+  .hero-section .content {
+    position: absolute;
+  
+    top: 10%;
+    right: 0%;
+    left: -70%;
+    z-index: 25;
+  }
+  .hero-section .content h1 {
+    width: 70%;
+    /* font-family: "Playfair Display", serif; */
+    /* font-weight: 500 !important; */
+  
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .hero-section .content p {
+    width: 270px;
+    font-size: 18px;
+    /* color: #645242; */
+    margin-bottom: 20px !important;
+    /* font-weight: 500 !important; */
+  }
+  
+  /* .hero-section .content svg{
+    color: #645242;
+  
+  } */
+  .hero-section .play-button {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 75.86px;
+    height: 75.86px;
+    /* border: 1px solid #e3a43b;
+    border-radius: 50%; */
+    /* background-color: transparent;
+    cursor: pointer; */
+    /* transition: background-color 0.3s ease; */
+  }
+  /* .hero-section .play-button:hover {
+    background-color: #e3a53b4a;
+  } */
+  
+  .hero-section .play-button .triangle {
+    position: absolute;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    width: 0;
+    height: 0;
+    border-left: 20px solid #e3a43b;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+  .hero-section .image {
+    width: 40%;
+    position: absolute;
+  
+    top: 94%;
+    left: 25%;
+  }
+  .hero-section .image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Section 2 - Let Your Mind Calm  */
+
+  .content2-img {
+    position: relative;
+    top: 50%;
+    right: 100%;
+    margin-top: 30px;
+    /* margin-: 100px; */
+    margin-left: -230px;
+  }
+
+  .content2-img img{
+    height: 150px;
+  }
+
+  .c2-img p{
+    font-size: 15px !important;
+  }
+
+  .hero2-section1 {
+    width: 420.9px;
+    height: 540px;
+    position: relative;
+    border: 1px;
+    border-style: none none solid none;
+    border-color:  #E0AB48;
+   margin-top: 70px;
+   }
+  .hero2-section2 {
+    width: 425.9px;
+  
+    height: 545px;
+  
+    position: relative;
+    border: 1px;
+  
+    border-style: none none solid none;
+  
+    border-color:  #e0ab488a;
+  }
+  
+  .hero2-section1 .content2 h2 {
+    width: 490px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500 !important;
+  
+    font-size: 30px;
+    line-height: 40.86px;
+    margin-bottom: 20px;
+  }
+  .hero2-section1 .content2 p {
+    width: 340px;
+    font-size: 18px;
+    font-family: "Lato" !important;
+  
+    margin-bottom: 20px !important;
+    font-weight: 400 !important;
+    color: #454647;
+  }
+  
+  /* Section 3 - About Miami Thai Spa */
+
+
+ 
+.hero3-section1 {
+    width: 380px;
+    height: 1065px;
+    position: relative;
+    border: 1px;
+    /* border-bottom: 1px double #E0AB48 !important; */
+    border-style: none none double none !important;
+    border-color:  #E0AB48;
+    margin-top: 120px;
+    /* margin-bottom: 300px !important; */
+   }
+  .hero3-section2 {
+    width: 380px;
+
+    /* height: 995px; */
+    position: relative;
+    border: 1px;
+  
+    border-style: none none none none;
+    border-color: #e0ab488a;
+  }
+  
+  .hero3-section1 .content-3-left{
+    position: absolute;
+    top: -15%;
+    right: 10%;
+    z-index: 25;
+  }
+
+ 
+  .content-3-left img{
+width: 330px;
+  }
+
+  .content-3-left h4{
+    font-size: 20px;
+  }
+  .hero3-section1 .content-3-right{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    z-index: 25;
+  }
+
+  .content-3-right img{
+width: 350px;
+
+  }
+  .hero3-section1 .content3 h2{
+    width: 490px;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  
+  .hero3-section1 .content3 p{
+    width: 340px;
+    font-family: "Lato" !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+    color: #454647;
+  
+  }
+  
+  /* Section 4 - Images  */
+
+ 
+.hero4-section1 {
+    width: 310px;
+    height: 2600px;
+   
+    border-style: none solid double none !important;
+    margin-top: 100px !important;
+    margin-left: 10px;
+   
+   }
+  .hero4-section2 {
+    width: 303px;
+
+    height: 2607px;
+    /* margin-left: 10px; */
+  
+    border-style: none solid double none;
+  }
+  
+
+  .content4-img-1 img{
+    width: 350px;
+
+  }
+  .content4-img-2 img{
+    width: 350px;
+
+  }
+
+  .content4-img-2{
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+
+  /* Section 5 - Schedule Your Wellness Journey */
+
+
+  .hero5-section1 {
+    width: 385px;
+    height: 1400px;
+   
+    border-style: none none double none !important;
+   margin-top: 100px !important;
+   }
+  .hero5-section2 {
+    width: 385px;
+
+    height: 1410px;
+  
+    border-style: none none double none;
+  }
+
+  .content4-right{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .content4-right img{
+    width: 350px;
+  }
+
+  .content4-img-2{
+    position: relative;
+    top: 0%;
+  }
+
+  .content4{
+    flex-direction: column !important;
+  }
+  
+  .hero5-section1 .content4 h2{
+    width: 400px;
+    font-size: 30px;
+  }
+  
+  .hero5-section1 .content4 p{
+    width: 360px;
+    font-weight: 400 !important;
+    font-size: 18px;
+  
+  }
+
+  .btn-div button{
+    background-color: #372403;
+    color: #D3AC71;
+    width: 154px;
+    height: 48px;
+    letter-spacing: 1px;
+  }
+
+  
+  .btn-div{
+    border: 1px solid #D3AC71;
+    width: 164px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Section 6 - Miami Thai Spa Opening Hours */
+
+  .sec-6{
+    height: 800px !important;
+    
+  }
+
+  .content-5-right h2{
+    width: 300px;
+    font-size: 25px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+  }
+
+  .content-5-left img{
+    width: 350px;
+  }
+
+  .hero6-section1 {
+    width: 385px;
+    height: 700px;
+   
+    border-style: none none double solid !important;
+   margin-bottom: 800px !important;
+   margin-top: 100px !important;
+   }
+  .hero6-section2 {
+    width: 395px;
+
+    height: 708px;
+  
+    border-style: none none double solid;
+   margin-bottom: 800px !important;
+
+  }
+
+  .content-5{
+    flex-direction: column;
+  }
+
+  
+.content-5-left img{
+    position: relative;
+    right: 10%;
+  }
+  
+  .opening-hours{
+    width: 350px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: white;
+    border:  1px solid #E0AB48;
+    position: absolute;
+    left: -5%;
+    bottom: 10%;
+  }
+  
+  .content-5-right-title{
+    margin-top: 40px;
+    margin-bottom: 200px !important;
+  }
+  
+  .opening-hours-link{
+    margin-bottom: 10px !important;
+  }
+
+  .opening-hours-link ul{
+    padding-left: 10px;
+  }
+
+
+  /* Footer */
+
+  
+footer{
+    height: 942px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-logo-1 img{
+width: 280px;
+  }
+  
+  .footer-img2{
+    width: 200px;
+    float: left !important;
+    margin-bottom: 0px !important;
+    position: relative;
+    top: 37%;
+    left: -25%;
+  }
+
+  .footer-row{
+    margin-bottom: 150px!important;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+
+.sec-4-main{
+  /* margin-right: 500px !important; */
+  max-width: 500px !important;
+}
+
+ /* .content2{
+  width: 100px !important;
+} */
+
+.content2 h2{
+  width: 40% !important;
+
+}
+
+.content2-img {
+  margin-left: -50px;
+}
+
+
+.content4-img-1 img{
+  width: 400px !important;
+
+}
+.content4-img-2 img{
+  width: 450px !important;
+
+}
+.content4-img-2 .h4-2{
+  height: 300px !important;
+
+}
+
+
+.hero-section {
+  width: 1130px;
+  height: 657px;
+
+ 
+ }
+.hero-section2 {
+  width: 1137px;
+  height: 650px;
+
+}
+
+footer h3{
+  font-family: "Playfair Display", serif;
+
+}
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+  .hero-section {
+    width: 880px;
+  
+   }
+  .hero-section2 {
+    width: 887px;
+  
+  }
+
+
+  .hero-section .content {
+  
+    right: 0%;
+    left: -21%;
+  }
+  .hero-section .content h1 {
+    width: 40%;
+   
+  letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .hero-section .content p {
+    width: 270px;
+    font-size: 15px;
+    /* color: #645242; */
+    margin-bottom: 20px !important;
+    /* font-weight: 500 !important; */
+  }
+  
+  /* .hero-section .content svg{
+    color: #645242;
+  
+  } */
+.hero-section .play-button {
+  
+
+  width: 180.86px;
+  height: 180.86px;
+}
+
+
+.hero-section .play-button .triangle {
+
+  
+  border-left: 30px solid #E0AB48;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+
+  .hero-section .image {
+    width: 40%;
+  
+    top: 84%;
+    left: 23%;
+  }
+  .hero-section .image img {
+    max-width: 80%;
+  }
+
+
+  .content2 h2{
+    width: 40% !important;
+    font-size: 30px !important;
+  
+  }
+
+  .content-2-p{
+    font-size: 16px !important;
+    width: 36% !important;
+  }
+  
+  .content2-img {
+    margin-left: -100px;
+  }
+
+  .content2-img img{
+    width: 150px;
+    height: 200px;
+  }
+  .img2-c2 img{
+    width: 120px;
+
+  }
+
+
+
+  
+/* Section 3 - About Miami Thai Spa */
+
+.hero3-section1 {
+  width: 900px;
+  height: 655px;
+
+  margin-top: 250px;
+ 
+ }
+.hero3-section2 {
+  width: 895px;
+  height: 650px;
+  
+}
+
+.hero3-section1 .content-3-left{
+  top: -10%;
+  right: 70%;
+}
+
+.content-3-left img{
+  width: 400px;
+}
+.content-3-right img{
+  width: 450px;
+}
+.hero3-section1 .content-3-right{
+  top: -21%;
+  left: 38%;
+}
+
+.hero3-section1 .content3 p{
+  width: 440px;
+  font-weight: 500 !important;
+  font-size: 15px;
+
+}
+
+.hero3-section1 svg{
+  margin-top: 30px  !important;
+  }
+
+h2{
+
+  font-size: 30px !important;
+  line-height: 40.86px !important;
+}
+
+/* Section 4 - Images */
+
+
+.content4-img-1 img{
+  width: 320px !important;
+
+}
+.content4-img-2 img{
+  width: 300px !important;
+  height: 200px !important ;
+
+}
+.content4-img-2 .h4-2{
+  height: 250px !important;
+
+}
+
+
+.hero4-section1 {
+  width: 800px;
+  height: 757px;
+
+  margin-top: 200px;
+ 
+ }
+.hero4-section2 {
+  width: 807px;
+  height: 750px;
+ 
+}
+
+.content4-right img{
+  width: 250px;
+}
+
+.content-4-left h2{
+  font-size: 30px;
+}
+.content-4-left p{
+  font-size: 16px;
+}
+
+
+.hero5-section1 {
+  width: 100%;
+  height: 387px;
+  
+  margin-top: 200px;
+ }
+
+.hero5-section2 {
+  width: 100%;
+
+  height: 393px;
+
+  
+}
+
+
+
+.btn-div button{
+ 
+  width: 174px;
+  height: 58px;
+}
+
+.btn-div{
+  width: 181px;
+  height: 65px;
+  
+}
+
+
+
+/* Section 6 - Miami Thai Spa Opening Hours */
+
+
+.hero6-section1 {
+  width: 900px;
+  height: 425px;
+ }
+.hero6-section2 {
+  width: 895px;
+
+  height: 420px;
+
+}
+
+
+.content-5-left img{
+  right: 20%;
+  /* top: 5%; */
+  width: 400px;
+}
+
+.opening-hours{
+  width: 620px;
+  height: 140px;
+
+  left: 30%;
+  bottom: 20%;
+}
+
+
+
+.opening-hours-link ul {
+  margin-left: -30px;
+
+}
+
+.opening-hours-link ul li a{
+  
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.content-5-right{
+margin-left: -30px;
+}
+
+  
+/* Footer */
+
+footer{
+  margin-top: 100px;
+}
+
+.footer-logo-1 img{
+  width: 250px;
+}
+
+}
+
+
+@media (min-width: 577px) and (max-width: 991px){
+
+
+/* Section 1 - Soothe Your Body */
+
+.hero-section {
+  width: 750px;
+  height: 657px;
+ 
+ 
+ }
+.hero-section2 {
+  width: 757px;
+  height: 650px;
+ 
+}
+
+
+.hero-section .content {
+
+  top: 10%;
+  right: 70%;
+  z-index: 25;
+}
+.hero-section .content h1 {
+  width: 300px;
+  font-weight: 600 !important;
+
+  font-size: 30px;
+  line-height: 55px;
+  margin-bottom: 10px;
+}
+.hero-section .content p {
+  width: 290px;
+  font-size: 15px;
+  margin-bottom: 20px !important;
+}
+
+
+.hero-section .play-button {
+  
+
+  width: 180.86px;
+  height: 180.86px;
+}
+
+
+.hero-section .play-button .triangle {
+
+  
+  border-left: 30px solid #E0AB48;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+
+  .hero-section .image {
+    width: 40%;
+  
+    top: 84%;
+    left: 23%;
+  }
+  .hero-section .image img {
+    max-width: 80%;
+  }
+
+  
+  .content2-img {
+    position: relative;
+    top: 0%;
+    right: 10%;
+    margin-top: 0px;
+    /* margin-: 100px; */
+    margin-left: 50px;
+  }
+
+  .content2-img img{
+    height: 180px;
+  }
+
+  .c2-img p{
+    font-size: 12px !important;
+  }
+
+  .c2-img svg{
+    width: 10px;
+    height: 10px;
+  }
+
+  .hero2-section1 {
+    width: 493px;
+    height: 280px;
+    border-style: none solid solid none;
+   
+   margin-top: 70px;
+   }
+  .hero2-section2 {
+    width: 495.9px;
+  
+    height: 285px;
+  
+  
+    border-style: none solid solid none;
+  
+  }
+  
+  .hero2-section1 .content2 h2 {
+    width: 490px;
+    font-weight: 500 !important;
+  
+    font-size: 30px !important;
+    line-height: 40.86px;
+    margin-bottom: 20px;
+  }
+  .hero2-section1 .content2 p {
+    width: 280px;
+    font-size: 15px;
+  
+    margin-bottom: 20px !important;
+    font-weight: 400 !important;
+  }
+
+
+  /* Section 3 - About Miami Thai Spa */
+
+
+  .hero3-section1 {
+    width: 760px;
+    height: 435px;
+  
+    margin-top: 200px;
+   
+   }
+  .hero3-section2 {
+    width: 755px;
+    height: 430px;
+    
+  }
+
+  .content3 h4{
+    font-size: 15px !important;
+  }
+  
+  .hero3-section1 .content-3-left{
+    top: 0%;
+    right: 72%;
+  }
+  
+  .content-3-left img{
+    width: 250px;
+  }
+  .content-3-right img{
+    width: 300px;
+  }
+  .hero3-section1 .content-3-right{
+    top: -25%;
+    left: 38%;
+  }
+  .hero3-section1 .content3 h2{
+font-size: 25px !important;
+  }
+  
+  .hero3-section1 .content3 p{
+    width: 340px;
+    font-weight: 500 !important;
+    font-size: 13px;
+  
+  }
+  
+  .hero3-section1 svg{
+    margin-top: 30px  !important;
+    }
+  
+
+    /* Section 4 - Images */
+    
+.hero4-section1 {
+  width: 310px;
+  height: 3900px;
+ 
+  border-style: none solid double none !important;
+  margin-top: 100px !important;
+  margin-left: 10px;
+ 
+ }
+.hero4-section2 {
+  width: 303px;
+
+  height: 3907px;
+
+  border-style: none solid double none;
+}
+
+
+.content4-img-1 img{
+  width: 650px;
+
+}
+.content4-img-2 img{
+  width: 600px;
+
+}
+
+.content4-img-2{
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+
+
+  /* Section 5 - Schedule Your Wellness Journey */
+
+
+  .hero5-section1 {
+    width: 485px;
+    height: 705px;
+   
+    border-style: none none double none !important;
+   margin-top: 100px !important;
+   }
+  .hero5-section2 {
+    width: 485px;
+
+    height: 700px;
+  
+    border-style: none none double none;
+  }
+
+  .content4-right{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .content4-right img{
+    width: 350px;
+  }
+
+  .content4-img-2{
+    position: relative;
+    top: 0%;
+  }
+
+  .content4{
+    flex-direction: column !important;
+  }
+  
+  .hero5-section1 .content4 h2{
+    width: 500px;
+    font-size: 30px;
+  }
+  
+  .hero5-section1 .content4 p{
+    width: 360px;
+    font-weight: 400 !important;
+    font-size: 15px;
+  
+  }
+
+  .btn-div button{
+    background-color: #372403;
+    color: #D3AC71;
+    width: 154px;
+    height: 48px;
+    letter-spacing: 1px;
+  }
+
+  
+  .btn-div{
+    border: 1px solid #D3AC71;
+    width: 164px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+
+  /* Section 6 - Miami Thai Spa Opening Hours */
+
+  .sec-6{
+    height: 800px !important;
+    
+  }
+
+  .content-5-right h2{
+    width: 500px;
+    font-size: 25px !important;
+    margin-left: 0px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+  }
+
+  .content-5-left img{
+    width: 350px;
+  }
+
+  .hero6-section1 {
+    width: 745px;
+    height: 400px;
+   
+    border-style: none none double solid !important;
+   margin-bottom: 800px !important;
+   margin-top: 100px !important;
+   }
+  .hero6-section2 {
+    width: 740px;
+
+    height: 408px;
+  
+    border-style: none none double solid;
+   margin-bottom: 800px !important;
+
+  }
+
+  .content-5{
+    flex-direction: row;
+  }
+
+  
+.content-5-left img{
+    position: relative;
+    right: 10%;
+  }
+  
+  .opening-hours{
+    width: 470px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: white;
+    border:  1px solid #E0AB48;
+    position: absolute;
+    left: 40%;
+    bottom: 30%;
+  }
+  
+  .content-5-right-title{
+    margin-top: 40px;
+    margin-bottom: 200px !important;
+  }
+  
+  .opening-hours-link{
+    margin-bottom: 10px !important;
+  }
+
+  .opening-hours-link ul{
+    padding-left: 0px;
+  }
+
+  .opening-hours-link ul li a{
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+/* Footer */
+    
+footer{
+  height: 982px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo-1 img{
+width: 400px;
+margin-left: -40px;
+}
+
+.footer-img2{
+  width: 200px;
+  float: left !important;
+  margin-bottom: 0px !important;
+  position: relative;
+  top: 38%;
+  left: 0%;
+}
+
+.footer-row{
+  margin-bottom: 150px!important;
+}
+  
+}
