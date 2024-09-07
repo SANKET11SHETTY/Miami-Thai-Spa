@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
   /* box-sizing: border-box; */
 }
 
-body{
+body {
   min-height: 100vh;
   width: 101vw;
   overflow-x: hidden;
@@ -39,7 +39,7 @@ Nav ul li a {
 }
 Nav ul li a:hover {
   color: #ffd502 !important;
- font-weight: 700 !important;
+  font-weight: 700 !important;
 }
 
 /* Section 1 - Soothe Your Body */
@@ -50,9 +50,8 @@ Nav ul li a:hover {
   position: relative;
   border: 1px;
   border-style: none none solid solid;
-  border-color:  #E0AB48;
- 
- }
+  border-color: #e0ab48;
+}
 .hero-section2 {
   width: 1193px;
   height: 650px;
@@ -60,7 +59,7 @@ Nav ul li a:hover {
   border: 1px;
 
   border-style: none none solid solid;
-  border-color:  #e0ab488a;
+  border-color: #e0ab488a;
 }
 
 .hero-section .content {
@@ -87,9 +86,8 @@ Nav ul li a:hover {
   /* font-weight: 500 !important; */
 }
 
-.hero-section .content svg{
+.hero-section .content svg {
   color: #645242;
-
 }
 .hero-section .play-button {
   position: absolute;
@@ -98,7 +96,7 @@ Nav ul li a:hover {
   transform: translate(-50%, -50%);
   width: 213.86px;
   height: 213.86px;
-  border: 1px solid #E0AB4899;
+  border: 1px solid #e0ab4899;
   border-radius: 50%;
   background-color: transparent;
   cursor: pointer;
@@ -117,7 +115,7 @@ Nav ul li a:hover {
 
   width: 0;
   height: 0;
-  border-left: 35px solid #E0AB48;
+  border-left: 35px solid #e0ab48;
   border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
 }
@@ -133,9 +131,7 @@ Nav ul li a:hover {
   height: auto;
 }
 
-
 /* Section 2 - Let Your Mind Calm */
-
 
 .hero2-section1 {
   width: 840.9px;
@@ -143,9 +139,9 @@ Nav ul li a:hover {
   position: relative;
   border: 1px;
   border-style: none solid solid none;
-  border-color:  #E0AB48;
- margin-top: 200px;
- }
+  border-color: #e0ab48;
+  margin-top: 200px;
+}
 .hero2-section2 {
   width: 835.9px;
 
@@ -156,7 +152,7 @@ Nav ul li a:hover {
 
   border-style: none solid solid none;
 
-  border-color:  #e0ab488a;
+  border-color: #e0ab488a;
 }
 
 .hero2-section1 .content2 h2 {
@@ -178,30 +174,28 @@ Nav ul li a:hover {
   color: #454647;
 }
 
-.hero2-section1 .content2-img{
+.hero2-section1 .content2-img {
   position: absolute;
   left: 58%;
   bottom: 20%;
   z-index: 25;
-
 }
-.hero2-section1 .content2-img img{
+.hero2-section1 .content2-img img {
   margin-bottom: 20px !important;
 
-border-radius: 10px;
+  border-radius: 10px;
 }
 
-.hero2-section1 .content2-img p{
+.hero2-section1 .content2-img p {
   display: inline;
   font-family: "Inter", sans-serif;
   font-weight: 500 !important;
-font-size: 15.52px ;
+  font-size: 15.52px;
 }
-.hero2-section1 .content2-img svg{
+.hero2-section1 .content2-img svg {
   margin-left: 30px;
-  color: #3A7E8D;
+  color: #3a7e8d;
 }
-
 
 /* Section 3 - About Miami Thai Spa */
 
@@ -211,10 +205,9 @@ font-size: 15.52px ;
   position: relative;
   border: 1px;
   border-style: none none solid solid;
-  border-color:  #E0AB48;
+  border-color: #e0ab48;
   margin-top: 250px;
- 
- }
+}
 .hero3-section2 {
   width: 1095px;
   height: 650px;
@@ -225,34 +218,33 @@ font-size: 15.52px ;
   border-color: #e0ab488a;
 }
 
-.hero3-section1 .content-3-left{
+.hero3-section1 .content-3-left {
   position: absolute;
   top: -15%;
   right: 70%;
   z-index: 25;
 }
-.hero3-section1 .content-3-right{
+.hero3-section1 .content-3-right {
   position: absolute;
   top: -30%;
   left: 44%;
   z-index: 25;
 }
 
-.hero3-section1 .content3 p{
+.hero3-section1 .content3 p {
   width: 540px;
   font-family: "Lato" !important;
   font-weight: 400 !important;
   font-size: 18px;
   color: #454647;
-
 }
 
-.hero3-section1 svg{
-  margin-top: 30px  !important;
+.hero3-section1 svg {
+  margin-top: 30px !important;
   color: #937439 !important;
-  }
+}
 
-h2{
+h2 {
   font-family: "Playfair Display", serif !important;
   font-weight: 500 !important;
 
@@ -260,7 +252,7 @@ h2{
   line-height: 40.86px !important;
 }
 
-h4{
+h4 {
   color: #454647 !important;
 }
 
@@ -272,10 +264,9 @@ h4{
   position: relative;
   border: 1px;
   border-style: none solid solid none;
-  border-color:  #E0AB48;
+  border-color: #e0ab48;
   margin-top: 200px;
- 
- }
+}
 .hero4-section2 {
   width: 1107px;
   height: 1020px;
@@ -286,19 +277,12 @@ h4{
   border-color: #e0ab488a;
 }
 
-.hero4-section1 .row{
+.hero4-section1 .row {
   width: 1400px !important;
   /* height: 650px !important; */
-
 }
 
-
-
-
-
 /* Section 5 About Miami Thai Spa  */
-
-
 
 .hero5-section1 {
   width: 100%;
@@ -306,10 +290,10 @@ h4{
   position: relative;
   border: 1px;
   border-style: none none solid none;
-  border-color:  #E0AB48;
+  border-color: #e0ab48;
   margin-top: 200px;
- /* position: relative; */
- }
+  /* position: relative; */
+}
 .hero5-section2 {
   width: 100%;
 
@@ -319,50 +303,57 @@ h4{
   border: 1px;
 
   border-style: none none solid none;
-  border-color: #E0AB48;
+  border-color: #e0ab48;
 }
 /* .content-4-left{
   float: right;
 } */
 
-.content-4-left p{
+.content-4-left p {
   width: 80%;
 }
 /* .content-4-left h2{
   width: 80%;
 } */
 
-.btn-div button{
+.btn-div button {
   background-color: #372403;
-  color: #D3AC71;
+  color: #d3ac71;
   width: 194px;
   height: 68px;
   letter-spacing: 1px;
+  transition: transform 1000ms;
 }
-.btn-div button:hover{
+.btn-div button:hover,
+.btn-div button:focus-visible {
   background-color: #ffbf00;
   color: #000000;
- 
+  transform: translateY(0.25rem);
+  transition: transform 2000ms;
 }
 
-.btn-div{
-  border: 1px solid #D3AC71;
+.btn-div {
+  border: 1px solid #d3ac71;
   width: 205px;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 1000ms;
+}
+.btn-div:hover,
+.btn-div:focus-visible {
+  transform: translateY(2rem);
+  transition: transform 2000ms;
+  /* height: 90px; */
 }
 
-
-
-.content4-img-2{
+.content4-img-2 {
   position: relative;
   top: 30%;
 }
 
 /* Section 6 - Miami Thai Spa Opening Hours */
-
 
 .hero6-section1 {
   width: 1100px;
@@ -370,10 +361,10 @@ h4{
   position: relative;
   border: 1px;
   border-style: none none solid solid;
-  border-color:  #E0AB48;
+  border-color: #e0ab48;
   margin-top: 200px;
- /* position: relative; */
- }
+  /* position: relative; */
+}
 .hero6-section2 {
   width: 1095px;
 
@@ -383,39 +374,38 @@ h4{
   border: 1px;
 
   border-style: none none solid solid;
-  border-color: #E0AB48;
+  border-color: #e0ab48;
 }
 
-
-.content-5-left img{
+.content-5-left img {
   position: relative;
   right: 20%;
 }
 
-.opening-hours{
+.opening-hours {
   width: 750px;
   height: 140px;
   border-radius: 5px;
   background-color: white;
-  border:  1px solid #E0AB48;
+  border: 1px solid #e0ab48;
   position: absolute;
   left: 30%;
   bottom: 20%;
 }
 
-.content-5-right-title{
+.content-5-right-title {
   margin-bottom: 200px !important;
 }
 
-.opening-hours-link{
+.opening-hours-link {
   margin-bottom: -20px !important;
 }
 
-.opening-hours-link ul li{
+.opening-hours-link ul li {
   list-style-type: none;
 }
 
-.opening-hours-link ul li a{
+.opening-hours-link ul li a {
   text-decoration: none;
   color: #937439;
   font-weight: 500;
@@ -424,49 +414,45 @@ h4{
 
 /* Footer */
 
-footer{
-  background-color: #2B180A;
+footer {
+  background-color: #2b180a;
   height: 442px;
   display: flex;
   align-items: center;
 }
-.footer-services p{
+.footer-services p {
   cursor: pointer;
 }
 
-.footer-services svg{
-  color: #C39863;
+.footer-services svg {
+  color: #c39863;
 }
 
-footer p{
+footer p {
   font-size: 15px;
   font-weight: 300;
 }
-.footer-contact p{
-  font-weight:400 !important;
-
+.footer-contact p {
+  font-weight: 400 !important;
 }
 
-footer p span{
-  font-weight:100 !important;
+footer p span {
+  font-weight: 100 !important;
   font-size: 13px;
-
 }
 
-.footer-img2{
+.footer-img2 {
   width: 200px;
   float: right;
   margin-bottom: -210px !important;
 }
-
-
 
 /* Dark Mode css */
 .darkmoding {
   padding: 0;
   width: 30px;
   height: 30px;
-  
+
   font-size: 2px !important;
 }
 .darkmoding svg {
@@ -475,17 +461,16 @@ footer p span{
   margin-left: -3px !important;
 }
 
-.darkmoding svg:last-child{
+.darkmoding svg:last-child {
   display: none;
   color: black;
 }
 
-
-.darkModer .darkmoding svg:first-child{
+.darkModer .darkmoding svg:first-child {
   display: none;
 }
 
-.darkModer .darkmoding svg:last-child{
+.darkModer .darkmoding svg:last-child {
   display: block;
   color: black;
 }
@@ -501,14 +486,66 @@ footer p span{
   font-weight: 600;
 }
 
-.darkModer .content p, .darkModer .content2 p, .darkModer .content3 p, .darkModer .content3 h4, .darkModer .content svg{
+.darkModer .content p,
+.darkModer .content2 p,
+.darkModer .content3 p,
+.darkModer .content3 h4,
+.darkModer .content svg {
   color: white !important;
-
 }
 
-.darkModer .opening-hours h6, .darkModer .opening-hours p {
+.darkModer .opening-hours h6,
+.darkModer .opening-hours p {
   color: black !important;
-
+}
+.content-3-right h2 {
+  color: black !important;
 }
 
+.darkModer h1,
+.darkModer h2 {
+  background: linear-gradient(90deg, #e0ab48, white);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
 
+/* Animations */
+
+.scroll-watcher {
+  height: 3px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #e0ab48;
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.content-3-left,
+.content-3-right-img-1,
+.cr-4,
+.img-cntr {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
