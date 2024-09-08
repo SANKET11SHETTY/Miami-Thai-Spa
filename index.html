@@ -41,9 +41,11 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <div id="pre-loader1"></div>
+
     <!-- Navbar -->
 
-    <header class="">
+    <header id="">
       <div class="scroll-watcher"></div>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid pe-3 pe-lg-2 pe-xl-5 pe-xxl-5">
@@ -188,7 +190,11 @@
             class="content2-img d-flex gap-2 gap-md-3 gap-lg-4 gap-xl-4 gap-xxl-5"
           >
             <div class="c2-img img-c2">
-              <img src="images/retreatSpa.jpg.png" alt="Retreat Spa" class="img-cntr" />
+              <img
+                src="images/retreatSpa.jpg.png"
+                alt="Retreat Spa"
+                class="img-cntr"
+              />
               <p>Service Name</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -268,8 +274,8 @@
         <div
           class="hero3-section2 ms-0 ms-lg-auto ms-md-auto ms-xl-auto ms-xxl-auto sec-3-miami-2"
         >
-          <div class="content3 ">
-            <div class="content-3-left ">
+          <div class="content3">
+            <div class="content-3-left">
               <img
                 src="images/BL_Retreat_6170_01__6_.jpg.png"
                 alt="Cream"
@@ -346,14 +352,24 @@
               <div
                 class="col-12 col-xl-auto col-md-12 col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 hero4-mid content4-img-2 px-xl-0"
               >
-                <img src="images/img/img3.png" height="270px" loading="lazy" class="img-cntr" />
+                <img
+                  src="images/img/img3.png"
+                  height="270px"
+                  loading="lazy"
+                  class="img-cntr"
+                />
                 <img
                   src="images/img/img4.png"
                   height="370px"
                   loading="lazy"
-                  class="h4-2 img-cntr" 
+                  class="h4-2 img-cntr"
                 />
-                <img src="images/img/img5.png" height="260px" loading="lazy" class="img-cntr" />
+                <img
+                  src="images/img/img5.png"
+                  height="260px"
+                  loading="lazy"
+                  class="img-cntr"
+                />
               </div>
               <div
                 class="col-12 col-md-12 col-xl-auto col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 content4-img-1"
@@ -415,7 +431,12 @@
         <div class="hero6-section2 ms-2 ms-lg-auto ms-xl-auto ms-xxl-auto">
           <div class="content-5 d-flex">
             <div class="content-5-left">
-              <img src="images/DJI_0348__6_.jpg.png" alt="spa" loading="lazy" class="miami-opening" />
+              <img
+                src="images/DJI_0348__6_.jpg.png"
+                alt="spa"
+                loading="lazy"
+                class="miami-opening"
+              />
             </div>
 
             <div class="content-5-right align-content-end mb-3">
@@ -603,7 +624,15 @@
       });
     </script>
 
-   
+    <!-- Pre Loader -->
+    <script>
+      var loader = document.getElementById("pre-loader1");
+
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    
+   </script>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script

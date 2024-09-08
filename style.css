@@ -393,6 +393,7 @@ h4 {
   bottom: 20%;
 }
 
+
 .content-5-right-title {
   margin-bottom: 200px !important;
 }
@@ -501,6 +502,14 @@ footer p span {
 .content-3-right h2 {
   color: black !important;
 }
+.darkModer .opening-hours{
+box-shadow: #e0ab48 0px 3px 6px, #e0ab48 0px 3px 6px;
+}
+
+.darkModer Nav{
+box-shadow: 1px 1px 20px  #e0ab48;
+
+}
 
 .darkModer h1,
 .darkModer h2 {
@@ -549,3 +558,13 @@ footer p span {
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
+#pre-loader1{
+background: #fff url(images/Loader.gif) no-repeat center center;
+height: 100vh;
+width: 100%;
+position: fixed;
+z-index: 2000;
+}
+
+
