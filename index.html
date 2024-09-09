@@ -70,7 +70,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
               <li class="nav-item">
                 <a
-                  class="nav-link  text-white px-0  pb-0 me-1"
+                  class="nav-link  text-white px-0  pb-0 me-1 active"
                   aria-current="page"
                   href="#main-head"
                   >HOME</a
@@ -632,13 +632,6 @@
         loader.style.display = "none";
       });
 
-      <!-- Active Page -->
-      const activePage = window.location.hash;
-     const navLinks = document.querySelectorAll('nav a').forEach(link=>{
-  if(link.href.includes(`${activePage}`)){
-   link.classList.add('active');
-  };
- }); 
     
    </script>
 
