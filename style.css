@@ -29,9 +29,12 @@ Nav img {
   height: 100px;
   cursor: pointer;
 }
+
 Nav ul li a:is(:link, :active, :visited) {
- 
-  border-color: transparent !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid;
+ border-color: transparent !important;
 }
 Nav ul li a:is(:link, :active, :visited).active {
   font-size: 16px !important;
