@@ -1,6 +1,12 @@
 @media screen and (max-width: 576px){
    
-
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 /* Main Section Top */
 
 
@@ -423,6 +429,13 @@ width: 280px;
 }
 
 @media (min-width: 1200px) and (max-width: 1399px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
 .sec-4-main{
   /* margin-right: 500px !important; */
@@ -480,6 +493,13 @@ footer h3{
 
 
 @media (min-width: 992px) and (max-width: 1199px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
   .hero-section {
     width: 880px;
@@ -754,6 +774,13 @@ footer{
 
 @media (min-width: 577px) and (max-width: 991px){
 
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
 /* Section 1 - Soothe Your Body */
 

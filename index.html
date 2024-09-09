@@ -45,9 +45,9 @@
 
     <!-- Navbar -->
 
-    <header id="">
+    <header id="main-head" >
       <div class="scroll-watcher"></div>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid pe-3 pe-lg-2 pe-xl-5 pe-xxl-5">
           <div class="logo-img ps-1 ps-lg-2 ps-xl-5 ps-xxl-5">
             <img src="images/logo2.png" alt="logo" title="Miami Thai Spa" />
@@ -70,29 +70,29 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
               <li class="nav-item">
                 <a
-                  class="nav-link active text-white px-0 border-bottom pb-0 me-1"
+                  class="nav-link  text-white px-0  pb-0 me-1"
                   aria-current="page"
-                  href="#"
+                  href="#main-head"
                   >HOME</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about-miami">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link " href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">GALLERY</a>
+                <a class="nav-link" href="#gallery">GALLERY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ONLINE BOOKING</a>
+                <a class="nav-link " href="#online-booking">ONLINE BOOKING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">MEMBERSHIP</a>
+                <a class="nav-link" href="#membership">MEMBERSHIP</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT US</a>
+                <a class="nav-link" href="#contact-us">CONTACT US</a>
               </li>
               <div class="moders pt-2 pt-lg-1 ps-4 ps-lg-0">
                 <button
@@ -267,7 +267,7 @@
 
     <!-- Section 3 - About Miami Thai Spa -->
 
-    <section class="mb-5 sec-3-miami ms-md-5">
+    <section class="mb-5 sec-3-miami ms-md-5" >
       <div
         class="hero3-section1 ms-3 ms-lg-auto ms-md-auto ms-xl-auto ms-xxl-auto"
       >
@@ -299,7 +299,7 @@
               </div>
             </div>
 
-            <div class="content-3-right">
+            <div class="content-3-right" id="about-miami">
               <h2 class=".ani-h">About Miami Thai Spa</h2>
               <p class="pt-3 pb-5 pb-md-3">
                 Discover serenity in the heart of Miami Beach at Miami Thai Spa.
@@ -338,7 +338,7 @@
 
     <!-- Section 4 - Images -->
 
-    <section class="mb-5 sec-4-main">
+    <section class="mb-5 sec-4-main" id="gallery">
       <div class="hero4-section1 me-auto">
         <div class="hero4-section2 me-auto">
           <div class="content4-img ms-md-5">
@@ -385,14 +385,14 @@
 
     <!-- Section 5 - Schedule Your Wellness Journey -->
 
-    <section>
+    <section id="membership">
       <div class="hero5-section1 me-auto mb-5">
         <div class="hero5-section2 me-auto">
           <div class="content4 d-flex justify-content-between">
             <div
               class="content-4-left align-content-end ps-3 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 ms-0 ms-lg-0 ms-xl-5 ms-xxl-5"
             >
-              <h2>Schedule Your Wellness Journey</h2>
+              <h2 class="typ-1">Schedule Your Wellness Journey</h2>
               <p class="pt-3 pb-3 pb-lg-5 pb-xl-5 pb-xxl-5">
                 Take the first step towards your well-being. Book your
                 appointment now and embark on a journey of self-care and
@@ -426,7 +426,7 @@
 
     <!-- Section 6 - Miami Thai Spa Opening Hours -->
 
-    <section class="sec-6 mt-md-5 pt-md-5">
+    <section class="sec-6 mt-md-5 pt-md-5" >
       <div class="hero6-section1 ms-5 ms-lg-auto ms-xl-auto ms-xxl-auto mb-5">
         <div class="hero6-section2 ms-2 ms-lg-auto ms-xl-auto ms-xxl-auto">
           <div class="content-5 d-flex">
@@ -439,7 +439,7 @@
               />
             </div>
 
-            <div class="content-5-right align-content-end mb-3">
+            <div class="content-5-right align-content-end mb-3" id="online-booking">
               <h2 class="content-5-right-title">
                 Miami Thai Spa Opening Hours
               </h2>
@@ -497,12 +497,12 @@
     <!-- Footer -->
 
     <footer class="px-0">
-      <div class="container ms-0 ms-md-5 ms-lg-0 ms-xl-0 ms-xxl-5">
+      <div class="container ms-0 ms-md-5 ms-lg-0 ms-xl-0 ms-xxl-5" id="services">
         <div
           class="row ps-5 ms-0 ms-lg-0 ps-lg-0 ms-xl-0 ms-xxl-5 gap-5 gap-lg-4 gap-xl-4 gap-xxl-4 footer-row"
-        >
+         id="contact-us">
           <div class="col-12 col-lg-4 col-xl-5 col-xxl-5 footer-logo-1 ps-md-0">
-            <img src="images/logo2.png" alt="" />
+            <img src="images/logo2.png" alt="logo"  />
           </div>
 
           <div
@@ -631,6 +631,14 @@
       window.addEventListener("load", function () {
         loader.style.display = "none";
       });
+
+      <!-- Active Page -->
+      const activePage = window.location.hash;
+     const navLinks = document.querySelectorAll('nav a').forEach(link=>{
+  if(link.href.includes(`${activePage}`)){
+   link.classList.add('active');
+  };
+ }); 
     
    </script>
 

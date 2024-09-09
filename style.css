@@ -8,6 +8,10 @@
   /* box-sizing: border-box; */
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   width: 101vw;
@@ -25,10 +29,15 @@ Nav img {
   height: 100px;
   cursor: pointer;
 }
-Nav ul li .active {
+Nav ul li a:is(:link, :active, :visited) {
+ 
+  border-color: transparent !important;
+}
+Nav ul li a:is(:link, :active, :visited).active {
   font-size: 16px !important;
   font-weight: 600 !important;
   border-color: #fffae1 !important;
+  border-bottom: 1px solid;
 }
 
 Nav ul li a {
@@ -517,6 +526,8 @@ box-shadow: 1px 1px 20px  #e0ab48;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 }
+
+
 
 /* Animations */
 
