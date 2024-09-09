@@ -1,4 +1,4 @@
-Hi, I have developed a dynamic Thai Spa Homepage with Bootstrap, CSS and jQuery. It includes Dark Mode and various animation effects.
+Translated a Figma design into a visually stunning and interactive Spa Homepage, leveraging Bootstrap, CSS, jQuery, and JavaScript. Key features include a sleek dark mode, smooth scrolling, and captivating CSS animations, delivering a seamless user experience.
 
 Here is the preview of my Homepage:
 
