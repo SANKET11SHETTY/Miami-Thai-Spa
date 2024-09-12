@@ -1,649 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Miami Thai Spa</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/favicon/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="images/favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <script src="   https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div id="pre-loader1"></div>
 
-    <!-- Navbar -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miami Thai Spa</title>
 
-    <header id="main-head" >
-      <div class="scroll-watcher"></div>
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid pe-3 pe-lg-2 pe-xl-5 pe-xxl-5">
-          <div class="logo-img ps-1 ps-lg-2 ps-xl-5 ps-xxl-5">
-            <img src="images/logo2.png" alt="logo" title="Miami Thai Spa" />
-          </div>
-          <button
-            class="navbar-toggler bg-white"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse float-end"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
-              <li class="nav-item">
-                <a
-                  class="nav-link  text-white px-0  pb-0 me-1 active"
-                  aria-current="page"
-                  href="#main-head"
-                  >HOME</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about-miami">ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#services">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery">GALLERY</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#online-booking">ONLINE BOOKING</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#membership">MEMBERSHIP</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-us">CONTACT US</a>
-              </li>
-              <div class="moders pt-2 pt-lg-1 ps-4 ps-lg-0">
-                <button
-                  class="btn btn-dark darkmoding fw-bold rounded-5"
-                  title="Change Mode"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    width="24px"
-                    fill="#e8eaed"
-                  >
-                    <path
-                      d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    width="24px"
-                    fill="#e8eaed"
-                  >
-                    <path
-                      d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </ul>
-          </div>
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+
+  <!-- BootStrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- FAVICONS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- jQuery CDN -->
+  <script src="   https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <div id="pre-loader1"></div>
+
+  <!-- Navbar -->
+
+  <header id="main-head">
+    <div class="scroll-watcher"></div>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid pe-3 pe-lg-2 pe-xl-5 pe-xxl-5">
+        <div class="logo-img ps-1 ps-lg-2 ps-xl-5 ps-xxl-5" data-aos="zoom-in" data-aos-duration="600">
+          <img src="images/logo2.png" alt="logo" title="Miami Thai Spa" />
         </div>
-      </nav>
-    </header>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item" data-aos="fade-down" data-aos-duration="800">
+              <a class="nav-link  text-white px-0  pb-0 me-1 active" aria-current="page" href="#main-head">HOME</a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-duration="1000">
+              <a class="nav-link" href="#about-miami">ABOUT US</a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-duration="1500">
+              <a class="nav-link " href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-duration="2000">
+              <a class="nav-link" href="#gallery">GALLERY</a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-duration="2500">
+              <a class="nav-link " href="#online-booking">ONLINE BOOKING</a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-duration="2800">
+              <a class="nav-link" href="#membership">MEMBERSHIP</a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-duration="3000">
+              <a class="nav-link" href="#contact-us">CONTACT US</a>
+            </li>
+            <div class="moders pt-2 pt-lg-1 ps-4 ps-lg-0" data-aos="fade-down" data-aos-duration="2900">
+              <button class="btn btn-dark darkmoding fw-bold rounded-5" title="Change Mode">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                  fill="#e8eaed">
+                  <path
+                    d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                  fill="#e8eaed">
+                  <path
+                    d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
+                </svg>
+              </button>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Main Section Top -->
+  <!-- Main Section Top -->
 
-    <section class="hero-main-top mb-5 pb-5 ms-5 ps-5">
-      <div class="hero-section2 ms-md-5 ms-lg-5 ms-xl-5 ms-xxl-auto ps-xl-auto">
-        <div class="hero-section ms-lg-auto ms-xl-auto ms-xxl-auto ps-xl-auto">
-          <div class="content ms-lg-5 ps-lg-5 ps-md-5 ms-md-5">
-            <h1 class=".ani-h">
-              Soothe Your Body, Calm Your Mind, Nourish
-              <span class="auto-typers"></span>
-            </h1>
-            <p>
-              Risus scelerisque a non turpis vitae malesuada sed venenatis. In
-              fringilla sollicitudin euismod sed.
-            </p>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              fill="currentColor"
-              class="bi bi-arrow-down mt-4 fw-bolder"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"
-                class="fw-bold"
-              />
+  <section class="hero-main-top mb-5 pb-5 ms-5 ps-5">
+    <div class="hero-section2 ms-md-5 ms-lg-5 ms-xl-5 ms-xxl-auto ps-xl-auto">
+      <div class="hero-section ms-lg-auto ms-xl-auto ms-xxl-auto ps-xl-auto">
+        <div class="content ms-lg-5 ps-lg-5 ps-md-5 ms-md-5">
+          <h1 data-aos="zoom-out-left" data-aos-duration="2000">
+            Soothe Your Body, Calm Your Mind, Nourish
+            <span class="auto-typers"></span>
+          </h1>
+          <p>
+            Risus scelerisque a non turpis vitae malesuada sed venenatis. In
+            fringilla sollicitudin euismod sed.
+          </p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-arrow-down mt-4 fw-bolder" viewBox="0 0 16 16" data-aos="fade-down" data-aos-duration="2000">
+            <path fill-rule="evenodd"
+              d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"
+              class="fw-bold" />
+          </svg>
+        </div>
+        <div class="play-button">
+          <div class="triangle"></div>
+        </div>
+        <div class="image">
+          <img src="images/stones.png" class="img-cntr" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2 - Let Your Mind Calm -->
+
+  <section class="pb-5">
+    <div class="hero2-section1 mb-5">
+      <div class="hero2-section2">
+        <div class="content2 ps-0 ps-lg-4 ps-xl-0 ps-xxl-5 ms-4 ms-lg-3 ms-xl-3 ms-xxl-5 pt-lg-5">
+          <h2>Let Your Mind Calm</h2>
+          <p class="pt-1 content-2-p">
+            Discover blissful relaxation with our services designed to pamper
+            and rejuvenate. From soothing massages to refreshing facials,
+            we've got everything you need to unwind and feel your best. Treat
+            yourself to a little self-care and leave feeling refreshed, inside
+            and out.
+          </p>
+        </div>
+
+        <div class="content2-img d-flex gap-2 gap-md-3 gap-lg-4 gap-xl-4 gap-xxl-5">
+          <div class="c2-img img-c2">
+            <img src="images/retreatSpa.jpg.png" alt="Retreat Spa" class="img-cntr" />
+            <p>Service Name</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd" 
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
             </svg>
           </div>
-          <div class="play-button">
-            <div class="triangle"></div>
+          <div class="c2-img img-c2">
+            <img src="images/Button.png" alt="Spa" class="img-cntr" />
+            <p>Service Name</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
           </div>
-          <div class="image">
-            <img src="images/stones.png" class="img-cntr" />
+          <div class="c2-img img-c2">
+            <img src="images/RT_MOSS_BRAND_AM_0823-0825_154__3_.jpg.png" alt="Cream" loading="lazy" class="img-cntr" />
+
+            <p>Service Name</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </div>
+          <div class="c2-img img2-c2">
+            <img src="images/BLS_Skincare-Summer-2023_CRL_0723-UNL-69__1_.jpg.png" alt="Skincare" loading="lazy"
+              class="img-cntr" />
+
+            <p>Service</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Section 2 - Let Your Mind Calm -->
+  <!-- Section 3 - About Miami Thai Spa -->
 
-    <section class="pb-5">
-      <div class="hero2-section1 mb-5">
-        <div class="hero2-section2">
-          <div
-            class="content2 ps-0 ps-lg-4 ps-xl-0 ps-xxl-5 ms-4 ms-lg-3 ms-xl-3 ms-xxl-5 pt-lg-5"
-          >
-            <h2 class=".ani-h">Let Your Mind Calm</h2>
-            <p class="pt-1 content-2-p">
-              Discover blissful relaxation with our services designed to pamper
-              and rejuvenate. From soothing massages to refreshing facials,
-              we've got everything you need to unwind and feel your best. Treat
-              yourself to a little self-care and leave feeling refreshed, inside
-              and out.
+  <section class="mb-5 sec-3-miami ms-md-5">
+    <div class="hero3-section1 ms-3 ms-lg-auto ms-md-auto ms-xl-auto ms-xxl-auto">
+      <div class="hero3-section2 ms-0 ms-lg-auto ms-md-auto ms-xl-auto ms-xxl-auto sec-3-miami-2">
+        <div class="content3">
+          <div class="content-3-left">
+            <img src="images/BL_Retreat_6170_01__6_.jpg.png" alt="Cream" loading="lazy" />
+            <div class="section3-h d-flex justify-content-between">
+              <h4 class="pt-4 d-inline">Aromatherapy Enhancements</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor"
+                class="bi bi-arrow-right mt-4" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="content-3-right" id="about-miami">
+            <h2 class=".ani-h">About Miami Thai Spa
+            </h2>
+            <p class="pt-3 pb-5 pb-md-3">
+              Discover serenity in the heart of Miami Beach at Miami Thai Spa.
+              Experience the transformative power of Thai massage as skilled
+              therapists dissolve tension and promote deep relaxation. Step
+              into our sanctuary, unwind, and rejuvenate amidst a warm and
+              welcoming atmosphere.
             </p>
-          </div>
-
-          <div
-            class="content2-img d-flex gap-2 gap-md-3 gap-lg-4 gap-xl-4 gap-xxl-5"
-          >
-            <div class="c2-img img-c2">
-              <img
-                src="images/retreatSpa.jpg.png"
-                alt="Retreat Spa"
-                class="img-cntr"
-              />
-              <p>Service Name</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                />
+            <img src="images/Lava_Deluxe_King_1.jpg.png" alt="Spa" loading="lazy" class="content-3-right-img-1" />
+            <div class="section3-h d-flex justify-content-between">
+              <h4 class="pt-4 d-inline" >Authentic Thai Techniques</h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor"
+                class="bi bi-arrow-right mt-4 me-md-5" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
               </svg>
-            </div>
-            <div class="c2-img img-c2">
-              <img src="images/Button.png" alt="Spa" class="img-cntr" />
-              <p class="">Service Name</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                />
-              </svg>
-            </div>
-            <div class="c2-img img-c2">
-              <img
-                src="images/RT_MOSS_BRAND_AM_0823-0825_154__3_.jpg.png"
-                alt="Cream"
-                loading="lazy"
-                class="img-cntr"
-              />
-
-              <p>Service Name</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                />
-              </svg>
-            </div>
-            <div class="c2-img img2-c2">
-              <img
-                src="images/BLS_Skincare-Summer-2023_CRL_0723-UNL-69__1_.jpg.png"
-                alt="Skincare"
-                loading="lazy"
-                class="img-cntr"
-              />
-
-              <p>Service</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Section 3 - About Miami Thai Spa -->
+  <!-- Section 4 - Images -->
 
-    <section class="mb-5 sec-3-miami ms-md-5" >
-      <div
-        class="hero3-section1 ms-3 ms-lg-auto ms-md-auto ms-xl-auto ms-xxl-auto"
-      >
-        <div
-          class="hero3-section2 ms-0 ms-lg-auto ms-md-auto ms-xl-auto ms-xxl-auto sec-3-miami-2"
-        >
-          <div class="content3">
-            <div class="content-3-left">
-              <img
-                src="images/BL_Retreat_6170_01__6_.jpg.png"
-                alt="Cream"
-                loading="lazy"
-              />
-              <div class="section3-h d-flex justify-content-between">
-                <h4 class="pt-4 d-inline">Aromatherapy Enhancements</h4>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-arrow-right mt-4"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                  />
-                </svg>
-              </div>
-            </div>
-
-            <div class="content-3-right" id="about-miami">
-              <h2 class=".ani-h">About Miami Thai Spa</h2>
-              <p class="pt-3 pb-5 pb-md-3">
-                Discover serenity in the heart of Miami Beach at Miami Thai Spa.
-                Experience the transformative power of Thai massage as skilled
-                therapists dissolve tension and promote deep relaxation. Step
-                into our sanctuary, unwind, and rejuvenate amidst a warm and
-                welcoming atmosphere.
-              </p>
-              <img
-                src="images/Lava_Deluxe_King_1.jpg.png"
-                alt="Spa"
-                loading="lazy"
-                class="content-3-right-img-1"
-              />
-              <div class="section3-h d-flex justify-content-between">
-                <h4 class="pt-4 d-inline">Authentic Thai Techniques</h4>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="10"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-arrow-right mt-4 me-md-5"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 4 - Images -->
-
-    <section class="mb-5 sec-4-main" id="gallery">
-      <div class="hero4-section1 me-auto">
-        <div class="hero4-section2 me-auto">
-          <div class="content4-img ms-md-5">
-            <div class="row container-fluid">
-              <div
-                class="col-12 col-md-12 col-xl-auto col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 content4-img-1"
-              >
-                <img src="images/img/img1.png" loading="lazy" />
-                <img src="images/img/img2.png" loading="lazy" />
-              </div>
-              <div
-                class="col-12 col-xl-auto col-md-12 col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 hero4-mid content4-img-2 px-xl-0"
-              >
-                <img
-                  src="images/img/img3.png"
-                  height="270px"
-                  loading="lazy"
-                  class="img-cntr"
-                />
-                <img
-                  src="images/img/img4.png"
-                  height="370px"
-                  loading="lazy"
-                  class="h4-2 img-cntr"
-                />
-                <img
-                  src="images/img/img5.png"
-                  height="260px"
-                  loading="lazy"
-                  class="img-cntr"
-                />
-              </div>
-              <div
-                class="col-12 col-md-12 col-xl-auto col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 content4-img-1"
-              >
-                <img src="images/img/img6.png" loading="lazy" />
-                <img src="images/img/img7.png" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 5 - Schedule Your Wellness Journey -->
-
-    <section id="membership">
-      <div class="hero5-section1 me-auto mb-5">
-        <div class="hero5-section2 me-auto">
-          <div class="content4 d-flex justify-content-between">
+  <section class="mb-5 sec-4-main" id="gallery">
+    <div class="hero4-section1 me-auto">
+      <div class="hero4-section2 me-auto">
+        <div class="content4-img ms-md-5">
+          <div class="row container-fluid">
             <div
-              class="content-4-left align-content-end ps-3 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 ms-0 ms-lg-0 ms-xl-5 ms-xxl-5"
-            >
-              <h2 class="typ-1">Schedule Your Wellness Journey</h2>
-              <p class="pt-3 pb-3 pb-lg-5 pb-xl-5 pb-xxl-5">
-                Take the first step towards your well-being. Book your
-                appointment now and embark on a journey of self-care and
-                rejuvenation at our wellness center.
-              </p>
-              <div class="btn-div">
-                <button class="">BOOK NOW</button>
-              </div>
+              class="col-12 col-md-12 col-xl-auto col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 content4-img-1">
+              <img src="images/img/img1.png" loading="lazy" />
+              <img src="images/img/img2.png" loading="lazy" />
             </div>
-
             <div
-              class="content4-right d-flex flex-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row gap-0 gap-lg-4 gap-xl-4 gap-xxl-4 gap-md-4 ps-md-4"
+              class="col-12 col-xl-auto col-md-12 col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 hero4-mid content4-img-2 px-xl-0">
+              <img src="images/img/img3.png" height="270px" loading="lazy" class="img-cntr" />
+              <img src="images/img/img4.png" height="370px" loading="lazy" class="h4-2 img-cntr" />
+              <img src="images/img/img5.png" height="260px" loading="lazy" class="img-cntr" />
+            </div>
+            <div
+              class="col-12 col-md-12 col-xl-auto col-lg-auto col-xxl-4 d-flex flex-column gap-4 gap-xl-3 content4-img-1">
+              <img src="images/img/img6.png" loading="lazy" />
+              <img src="images/img/img7.png" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5 - Schedule Your Wellness Journey -->
+
+  <section id="membership">
+    <div class="hero5-section1 me-auto mb-5">
+      <div class="hero5-section2 me-auto">
+        <div class="content4 d-flex justify-content-between">
+          <div
+            class="content-4-left align-content-end ps-3 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 ms-0 ms-lg-0 ms-xl-5 ms-xxl-5">
+            <h2 class="typ-1" >Schedule Your Wellness Journey</h2>
+            <p class="pt-3 pb-3 pb-lg-5 pb-xl-5 pb-xxl-5" >
+              Take the first step towards your well-being. Book your
+              appointment now and embark on a journey of self-care and
+              rejuvenation at our wellness center.
+            </p>
+            <div class="btn-div" >
+              <button class="">BOOK NOW</button>
+            </div>
+          </div>
+
+          <div
+            class="content4-right d-flex flex-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row gap-0 gap-lg-4 gap-xl-4 gap-xxl-4 gap-md-4 ps-md-4">
+            <img src="images/DSC_4716.jpg.png" alt="spa" class="content4-img-1 cr-4" loading="lazy" />
+            <img src="images/SMM.jpg.png" alt="spa" loading="lazy" class="content4-img-2 cr-4" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6 - Miami Thai Spa Opening Hours -->
+
+  <section class="sec-6 mt-md-5 pt-md-5">
+    <div class="hero6-section1 ms-5 ms-lg-auto ms-xl-auto ms-xxl-auto mb-5">
+      <div class="hero6-section2 ms-2 ms-lg-auto ms-xl-auto ms-xxl-auto">
+        <div class="content-5 d-flex">
+          <div class="content-5-left">
+            <img src="images/DJI_0348__6_.jpg.png" alt="spa" loading="lazy" class="miami-opening" />
+          </div>
+
+          <div class="content-5-right align-content-end mb-3" id="online-booking">
+            <h2 class="content-5-right-title" 
             >
-              <img
-                src="images/DSC_4716.jpg.png"
-                alt="spa"
-                class="content4-img-1 cr-4"
-                loading="lazy"
-              />
-              <img
-                src="images/SMM.jpg.png"
-                alt="spa"
-                loading="lazy"
-                class="content4-img-2 cr-4"
-              />
+              Miami Thai Spa Opening Hours
+            </h2>
+
+            <div class="opening-hours pt-4 ps-5 img-cntr">
+              <h6>Opening hours</h6>
+              <p>1 June 20 August, 07:00-24:00</p>
+              <p class="mb-0">21 August 31 May, 08:00-22:00</p>
+            </div>
+
+            <div class="opening-hours-link">
+              <ul class="d-flex gap-2 gap-md-5 gap-lg-5 gap-xl-5 gap-xxl-5">
+                <li class="me-2 me-lg-5 me-xl-5 me-xxl-5" >
+                  <a href="/">View all opening hours
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                    </svg></a>
+                </li>
+                <li >
+                  <a href="/">How to get here
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                    </svg></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Section 6 - Miami Thai Spa Opening Hours -->
+  <!-- Footer -->
 
-    <section class="sec-6 mt-md-5 pt-md-5" >
-      <div class="hero6-section1 ms-5 ms-lg-auto ms-xl-auto ms-xxl-auto mb-5">
-        <div class="hero6-section2 ms-2 ms-lg-auto ms-xl-auto ms-xxl-auto">
-          <div class="content-5 d-flex">
-            <div class="content-5-left">
-              <img
-                src="images/DJI_0348__6_.jpg.png"
-                alt="spa"
-                loading="lazy"
-                class="miami-opening"
-              />
-            </div>
+  <footer class="px-0">
+    <div class="container ms-0 ms-md-5 ms-lg-0 ms-xl-0 ms-xxl-5" id="services">
+      <div class="row ps-5 ms-0 ms-lg-0 ps-lg-0 ms-xl-0 ms-xxl-5 gap-5 gap-lg-4 gap-xl-4 gap-xxl-4 footer-row"
+        id="contact-us">
+        <div class="col-12 col-lg-4 col-xl-5 col-xxl-5 footer-logo-1 ps-md-0" >
+          <img src="images/logo2.png" alt="logo" />
+        </div>
 
-            <div class="content-5-right align-content-end mb-3" id="online-booking">
-              <h2 class="content-5-right-title">
-                Miami Thai Spa Opening Hours
-              </h2>
+        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 text-white footer-services">
+          <h3 class="pb-3">Our Services</h3>
 
-              <div class="opening-hours pt-4 ps-5 img-cntr">
-                <h6>Opening hours</h6>
-                <p>1 June 20 August, 07:00-24:00</p>
-                <p class="mb-0">21 August 31 May, 08:00-22:00</p>
-              </div>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+              class="bi bi-chevron-right me-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+            </svg>
+            Thai Massage
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+              class="bi bi-chevron-right me-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+            </svg>
+            Swedish Massage
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+              class="bi bi-chevron-right me-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+            </svg>
+            Four Hands massage
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+              class="bi bi-chevron-right me-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+            </svg>
+            Deep Tissue Massage
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+              class="bi bi-chevron-right me-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+            </svg>
+            Couples Massage
+          </p>
+        </div>
 
-              <div class="opening-hours-link">
-                <ul class="d-flex gap-2 gap-md-5 gap-lg-5 gap-xl-5 gap-xxl-5">
-                  <li class="me-2 me-lg-5 me-xl-5 me-xxl-5">
-                    <a href="/"
-                      >View all opening hours
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-arrow-right-short"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
-                        /></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="/"
-                      >How to get here
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-arrow-right-short"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
-                        /></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-lg-4 col-xl-3 col-xxl-3 text-white footer-contact ps-lg-2">
+          <h3 class="pb-3">Contact Us</h3>
+          <p>Contact No. : <span>+91 7709572387</span></p>
+          <p>Opening Time : <span>10:30 AM - 10:30 PM</span></p>
+          <p>Address : <span>Nebula Park, Khadakpada Rd, </span></p>
+          <p><span>opposite Mohan Heights, near </span></p>
+          <p><span>Waylenagar, Beturkar Pada, Kalyan</span></p>
         </div>
       </div>
-    </section>
+    </div>
+    <span class="footer-img2 justify-content-end d-flex align-content-end px-0 mx-0">
+      <img src="images/2148099265 1.png" alt="" />
+    </span>
+  </footer>
 
-    <!-- Footer -->
+  <!-- Auto Type -->
 
-    <footer class="px-0">
-      <div class="container ms-0 ms-md-5 ms-lg-0 ms-xl-0 ms-xxl-5" id="services">
-        <div
-          class="row ps-5 ms-0 ms-lg-0 ps-lg-0 ms-xl-0 ms-xxl-5 gap-5 gap-lg-4 gap-xl-4 gap-xxl-4 footer-row"
-         id="contact-us">
-          <div class="col-12 col-lg-4 col-xl-5 col-xxl-5 footer-logo-1 ps-md-0">
-            <img src="images/logo2.png" alt="logo"  />
-          </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-          <div
-            class="col-12 col-lg-3 col-xl-3 col-xxl-3 text-white footer-services"
-          >
-            <h3 class="pb-3">Our Services</h3>
+  <script>
+    let typed = new Typed(".auto-typers", {
+      strings: ["Your Soul"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+    });
+  </script>
 
-            <p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="10"
-                height="10"
-                fill="currentColor"
-                class="bi bi-chevron-right me-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-                />
-              </svg>
-              Thai Massage
-            </p>
-            <p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="10"
-                height="10"
-                fill="currentColor"
-                class="bi bi-chevron-right me-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-                />
-              </svg>
-              Swedish Massage
-            </p>
-            <p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="10"
-                height="10"
-                fill="currentColor"
-                class="bi bi-chevron-right me-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-                />
-              </svg>
-              Four Hands massage
-            </p>
-            <p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="10"
-                height="10"
-                fill="currentColor"
-                class="bi bi-chevron-right me-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-                />
-              </svg>
-              Deep Tissue Massage
-            </p>
-            <p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="10"
-                height="10"
-                fill="currentColor"
-                class="bi bi-chevron-right me-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-                />
-              </svg>
-              Couples Massage
-            </p>
-          </div>
+  <!-- Pre Loader -->
+  <script>
+    var loader = document.getElementById("pre-loader1");
 
-          <div
-            class="col-12 col-lg-4 col-xl-3 col-xxl-3 text-white footer-contact ps-lg-2"
-          >
-            <h3 class="pb-3">Contact Us</h3>
-            <p>Contact No. : <span>+91 7709572387</span></p>
-            <p>Opening Time : <span>10:30 AM - 10:30 PM</span></p>
-            <p>Address : <span>Nebula Park, Khadakpada Rd, </span></p>
-            <p><span>opposite Mohan Heights, near </span></p>
-            <p><span>Waylenagar, Beturkar Pada, Kalyan</span></p>
-          </div>
-        </div>
-      </div>
-      <span
-        class="footer-img2 justify-content-end d-flex align-content-end px-0 mx-0"
-      >
-        <img src="images/2148099265 1.png" alt="" />
-      </span>
-    </footer>
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+  </script>
 
-    <!-- Auto Type -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4dcbe6f943.js" crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+    });
+  </script>
+</body>
 
-    <script>
-      let typed = new Typed(".auto-typers", {
-        strings: ["Your Soul"],
-        typeSpeed: 150,
-        backSpeed: 150,
-        loop: true,
-      });
-    </script>
-
-    <!-- Pre Loader -->
-    <script>
-      var loader = document.getElementById("pre-loader1");
-
-      window.addEventListener("load", function () {
-        loader.style.display = "none";
-      });
-
-    
-   </script>
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/4dcbe6f943.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

@@ -1159,3 +1159,21 @@ margin-left: -40px;
 }
   
 }
+
+/* @media screen and (max-width: 1199px) {
+  [data-aos] {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+} */
+
+
+
+/* @media screen and (max-width: 1398px) {
+  [data-aos] {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+} */
