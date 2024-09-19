@@ -581,4 +581,15 @@ position: fixed;
 z-index: 2000;
 }
 
+/* Gsap */
+
+#cursor{
+  height: 12px;
+  width: 12px;
+  /* background-color:#ffbf00; */
+  border: 1px solid black;
+  z-index: 10000;
+  border-radius: 50%;
+  position: fixed !important;
+}
 

@@ -7,6 +7,10 @@
     padding: 0;
     overflow-x: hidden;
   }
+
+  #cursor{
+    display: none;
+  }
   /* Main Section Top */
 
   .hero-section {
