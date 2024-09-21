@@ -583,7 +583,7 @@ z-index: 2000;
   width: 12px;
   /* background-color:#ffbf00; */
   border: 1px solid black;
-  z-index: 10000;
+  z-index: 1000;
   border-radius: 50%;
   position: fixed !important;
 }
